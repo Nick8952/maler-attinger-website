@@ -1,0 +1,99 @@
+{
+  "firmenname": "Attinger Maler- + Tapeziergeschäft",
+  "kurzname": "Maler Attinger",
+  "inhaber": "Andreas Attinger",
+  "gegruendet": 1965,
+  "adresse": {
+    "strasse": "Hoffnungsstrasse 3",
+    "plz": "8038",
+    "ort": "Zürich",
+    "land": "Schweiz"
+  },
+  "telefon": "043 399 96 60",
+  "mobil": "079 209 59 82",
+  "email": "info@maler-attinger.ch",
+  "uid": "CHE-115.768.145 MWST",
+  "logo": {
+    "bild": "logo-attinger",
+    "alt": "Attinger Maler- + Tapeziergeschäft"
+  },
+  "navigation": [
+    {
+      "titel": "Start",
+      "ziel": "/"
+    },
+    {
+      "titel": "Über uns",
+      "ziel": "/ueber-uns"
+    },
+    {
+      "titel": "Angebot",
+      "ziel": "/angebot"
+    },
+    {
+      "titel": "Renovation / Umbau",
+      "ziel": "/renovation-umbau"
+    },
+    {
+      "titel": "Innen- & Aussenarbeiten",
+      "ziel": "/innen-aussenarbeiten"
+    },
+    {
+      "titel": "Kontakt",
+      "ziel": "/kontakt"
+    },
+    {
+      "titel": "Links",
+      "ziel": "/links"
+    }
+  ],
+  "partner": [
+    {
+      "titel": "Umweltschutz",
+      "beschreibung": "Vollzugsorganisation Umweltschutz Malergewerbe Kanton Zürich (VUM)",
+      "url": "https://www.vumzuerich.ch"
+    },
+    {
+      "titel": "Ökologie",
+      "beschreibung": "Schweizer Umweltetikette der Stiftung Farbe",
+      "url": "https://www.stiftungfarbe.org",
+      "logo": {
+        "bild": "partner-umweltetikette",
+        "alt": "Die Schweizer Umweltetikette – Stiftung Farbe"
+      }
+    },
+    {
+      "titel": "Züri2",
+      "beschreibung": "Gewerbeverein Zürich 2",
+      "url": "https://www.zueri2.ch",
+      "logo": {
+        "bild": "partner-zueri2",
+        "alt": "Gewerbeverein Zürich 2"
+      }
+    },
+    {
+      "titel": "Malerverband",
+      "beschreibung": "Zürcher Malermeister Verband (ZMV)",
+      "url": "https://www.zmv.ch"
+    }
+  ],
+  "rechtslinks": [
+    {
+      "titel": "Impressum",
+      "ziel": "/impressum"
+    },
+    {
+      "titel": "Datenschutz",
+      "ziel": "/datenschutz"
+    }
+  ],
+  "seo": {
+    "titelZusatz": "Attinger Maler- + Tapeziergeschäft, Zürich",
+    "beschreibung": "Maler- und Tapeziergeschäft in Zürich, Kreis 2 – 1965 von Werner Attinger gegründet: Malerarbeiten innen und aussen, Tapezier-, Spachtel-, Maurer- und Gipserarbeiten, umweltverträglich und geruchsarm.",
+    "bild": {
+      "bild": "hero-lieferwagen",
+      "alt": "Andreas Attinger vor dem Firmenwagen von Attinger Maler- + Tapeziergeschäft"
+    }
+  },
+  "demoHinweis": "Unverbindliche Design-Demo von Nick Holzbecher – nicht die offizielle Website von Attinger Maler- + Tapeziergeschäft."
+}

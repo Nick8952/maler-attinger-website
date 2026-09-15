@@ -1,0 +1,325 @@
+{
+  "id": "rechtstext-impressum",
+  "art": "impressum",
+  "titel": "Impressum",
+  "stand": "2026-09-15",
+  "inhalt": [
+    {
+      "_type": "block",
+      "_key": "5ab7b822d00c",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "a2faf3d208ae",
+          "text": "Verantwortlich für diese Demo-Website",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "2e063f24e653",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "51954ad16a11",
+          "text": "Diese Website ist eine unverbindliche Design-Demo. Sie ist ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "1e44d73f7d1a",
+          "text": "nicht",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "4d71c75af21c",
+          "text": " die offizielle Website von Attinger Maler- + Tapeziergeschäft und wurde von diesem Betrieb weder in Auftrag gegeben noch veröffentlicht. Über diese Demo können keine Aufträge erteilt werden.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "8b7fc7999bc3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "8cb909a0b67c",
+          "text": "Betreiber der Demo und verantwortlich für die Veröffentlichung: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "ca17749f74f0",
+          "text": "Nick Holzbecher",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "d7d70938a6c1",
+          "text": ", E-Mail ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "43db1aac92f7",
+          "text": "holzbechernick@gmail.com",
+          "marks": [
+            "5eb0cb2b650b"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "6efd55bfdb77",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "5eb0cb2b650b",
+          "href": "mailto:holzbechernick@gmail.com",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "4346c1822a88",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "d509ace32f7f",
+          "text": "Dargestelltes Unternehmen",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "f0508a98a4a1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7f199ed183b9",
+          "text": "Die folgenden Angaben stammen aus dem Impressum der bestehenden Website www.maler-attinger.ch (abgerufen am 15. September 2026) und beschreiben das dargestellte Unternehmen, nicht den Betreiber dieser Demo.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "a41541d0b2d3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "6f000cf02bcd",
+          "text": "Attinger Maler + Tapeziergeschäft",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "9a5998876be7",
+          "text": "\nHoffnungsstrasse 3, 8038 Zürich, Schweiz\nE-Mail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "8e1357b40d77",
+          "text": "info@maler-attinger.ch",
+          "marks": [
+            "773a608e2ced"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "773a608e2ced",
+          "href": "mailto:info@maler-attinger.ch",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "e106d40bf216",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ff471ba9c0d1",
+          "text": "Vertretungsberechtigte Person: Andreas Attinger\nRegistrationsnummer: CHE-115.768.145\nUmsatzsteuer-Identifikationsnummer: CHE-115.768.145 MWST",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "54419998c424",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "756ba7d030bd",
+          "text": "Inhalte, Fotos und Logo",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "c795ffb92dc8",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "5db796cd3f70",
+          "text": "Texte, Fotos und Logo auf dieser Demo stammen von www.maler-attinger.ch. Die Urheber- und alle anderen Rechte daran gehören Attinger Maler + Tapeziergeschäft oder den speziell genannten Rechteinhabern. Sie werden hier ausschliesslich zur Präsentation eines Gestaltungsvorschlags verwendet und auf Wunsch des Rechteinhabers umgehend entfernt. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "95d6a501b8ce",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "233840fe4d3a",
+          "text": "Hosting",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "c095737a41ce",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "64c856e76369",
+          "text": "Diese Demo wird über GitHub Pages veröffentlicht, einen Dienst von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Einzelheiten zur Datenbearbeitung finden Sie in der ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "1d64dbfd22e3",
+          "text": "Datenschutzerklärung",
+          "marks": [
+            "c70d5168504b"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "22fd21f7d46c",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "c70d5168504b",
+          "href": "/datenschutz",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "fd462c1ae164",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "0791bfc08684",
+          "text": "Haftungsausschluss",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "d6ed8e254564",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "16c7d4c17d20",
+          "text": "Der Betreiber übernimmt keine Gewähr für die Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen. Haftungsansprüche gegen den Betreiber wegen Schäden materieller oder immaterieller Art, die aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "8357252732ee",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "af4c32101691",
+          "text": "Der Betreiber behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "40cbc0300a8b",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "70a677138afc",
+          "text": "Haftungsausschluss für Links",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "3847da0ae6fe",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "e97fa8145228",
+          "text": "Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

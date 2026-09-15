@@ -1,0 +1,293 @@
+[
+  {
+    "id": "referenz-011",
+    "kategorie": "wohnungen",
+    "reihenfolge": 1,
+    "bild": {
+      "bild": "referenz-011",
+      "alt": "Wand mit abgedecktem Regal vor dem Anstrich"
+    }
+  },
+  {
+    "id": "referenz-009",
+    "kategorie": "wohnungen",
+    "reihenfolge": 2,
+    "bild": {
+      "bild": "referenz-009",
+      "alt": "Blauviolett gestrichene Wand neben einer weissen Tür"
+    }
+  },
+  {
+    "id": "referenz-013",
+    "kategorie": "wohnungen",
+    "reihenfolge": 3,
+    "bild": {
+      "bild": "referenz-013",
+      "alt": "Türkisblaue Wand mit Balkontür"
+    }
+  },
+  {
+    "id": "referenz-014",
+    "kategorie": "wohnungen",
+    "reihenfolge": 4,
+    "bild": {
+      "bild": "referenz-014",
+      "alt": "Graue Wand, weisse Türrahmen und Heizkörper in einer Altbauwohnung"
+    }
+  },
+  {
+    "id": "referenz-016",
+    "kategorie": "wohnungen",
+    "reihenfolge": 5,
+    "bild": {
+      "bild": "referenz-016",
+      "alt": "Grau gestrichenes Zimmer mit zwei Sprossenfenstern und Parkett"
+    }
+  },
+  {
+    "id": "referenz-018",
+    "kategorie": "wohnungen",
+    "reihenfolge": 6,
+    "bild": {
+      "bild": "referenz-018",
+      "alt": "Graues Zimmer mit weisser Zimmertür"
+    }
+  },
+  {
+    "id": "referenz-012",
+    "kategorie": "wohnungen",
+    "reihenfolge": 7,
+    "bild": {
+      "bild": "referenz-012",
+      "alt": "Orange gestrichene Wand neben weisser Wand"
+    }
+  },
+  {
+    "id": "referenz-010",
+    "kategorie": "wohnungen",
+    "reihenfolge": 8,
+    "bild": {
+      "bild": "referenz-010",
+      "alt": "Hellgrün gestrichene Wand neben einem Schrank"
+    }
+  },
+  {
+    "id": "referenz-020",
+    "kategorie": "wohnungen",
+    "reihenfolge": 9,
+    "bild": {
+      "bild": "referenz-020",
+      "alt": "Zweifarbige Wand: gelb unten, weiss oben, mit Sprossenfenster"
+    }
+  },
+  {
+    "id": "referenz-021",
+    "kategorie": "wohnungen",
+    "reihenfolge": 10,
+    "bild": {
+      "bild": "referenz-021",
+      "alt": "Korridor mit weissen Glastüren und Parkett"
+    }
+  },
+  {
+    "id": "referenz-022",
+    "kategorie": "wohnungen",
+    "reihenfolge": 11,
+    "bild": {
+      "bild": "referenz-022",
+      "alt": "Zimmer mit Glastür, Heizkörper und grauer Wand"
+    }
+  },
+  {
+    "id": "referenz-023",
+    "kategorie": "wohnungen",
+    "reihenfolge": 12,
+    "bild": {
+      "bild": "referenz-023",
+      "alt": "Roter Tisch vor rot-beigem Vorhang"
+    }
+  },
+  {
+    "id": "referenz-001",
+    "kategorie": "fassaden-treppen",
+    "reihenfolge": 13,
+    "bild": {
+      "bild": "referenz-001",
+      "alt": "Hellgelb gestrichene Hausfassade mit Balkon"
+    }
+  },
+  {
+    "id": "referenz-002",
+    "kategorie": "fassaden-treppen",
+    "reihenfolge": 14,
+    "bild": {
+      "bild": "referenz-002",
+      "alt": "Beige Hausfassade hinter kahlen Bäumen"
+    }
+  },
+  {
+    "id": "referenz-004",
+    "kategorie": "fassaden-treppen",
+    "reihenfolge": 15,
+    "bild": {
+      "bild": "referenz-004",
+      "alt": "Weisse Fassade mit grünen Fensterläden"
+    }
+  },
+  {
+    "id": "referenz-003",
+    "kategorie": "fassaden-treppen",
+    "reihenfolge": 16,
+    "bild": {
+      "bild": "referenz-003",
+      "alt": "Aussentreppe mit weiss markierten Stufenkanten"
+    }
+  },
+  {
+    "id": "referenz-024",
+    "kategorie": "garagen",
+    "reihenfolge": 17,
+    "bild": {
+      "bild": "referenz-024",
+      "alt": "Tiefgarage mit gelb gestrichenen Wänden und Stützen"
+    }
+  },
+  {
+    "id": "referenz-025",
+    "kategorie": "garagen",
+    "reihenfolge": 18,
+    "bild": {
+      "bild": "referenz-025",
+      "alt": "Tiefgarage mit gelber Wand und Leuchtstoffröhren"
+    }
+  },
+  {
+    "id": "referenz-026",
+    "kategorie": "garagen",
+    "reihenfolge": 19,
+    "bild": {
+      "bild": "referenz-026",
+      "alt": "Gelb gestrichene Garagenwand mit Betondecke"
+    }
+  },
+  {
+    "id": "umbau-rieterplatz-01",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 100,
+    "bild": {
+      "bild": "umbau-rieterplatz-01",
+      "alt": "Fertig gestrichene weisse Wand mit Sockelleiste"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-02",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 101,
+    "bild": {
+      "bild": "umbau-rieterplatz-02",
+      "alt": "Alte Wand mit abgeschliffenem Putz und Spachtel"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-04",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 102,
+    "bild": {
+      "bild": "umbau-rieterplatz-04",
+      "alt": "Andreas Attinger streicht eine Wand mit der Teleskopstange"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-06",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 103,
+    "bild": {
+      "bild": "umbau-rieterplatz-06",
+      "alt": "Zimmer mit blossgelegtem Putz und abgeschlagenem Material am Boden"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-07",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 104,
+    "bild": {
+      "bild": "umbau-rieterplatz-07",
+      "alt": "Wand mit frisch gefrästen Leitungsschlitzen neben einer Glastür"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-08",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 105,
+    "bild": {
+      "bild": "umbau-rieterplatz-08",
+      "alt": "Andreas Attinger verspachtelt einen Leitungsschlitz"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-10",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 106,
+    "bild": {
+      "bild": "umbau-rieterplatz-10",
+      "alt": "Andreas Attinger füllt Schlitze in der Wand"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-13",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 107,
+    "bild": {
+      "bild": "umbau-rieterplatz-13",
+      "alt": "Zimmer mit Türe und verspachteltem Riss in der Wand"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-14",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 108,
+    "bild": {
+      "bild": "umbau-rieterplatz-14",
+      "alt": "Andreas Attinger arbeitet auf der Leiter an der Wand über dem Täfer"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-17",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 109,
+    "bild": {
+      "bild": "umbau-rieterplatz-17",
+      "alt": "Andreas Attinger tapeziert die Wand über dem weissen Täfer"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-19",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 110,
+    "bild": {
+      "bild": "umbau-rieterplatz-19",
+      "alt": "Fertiges Zimmer mit weissem Täfer und Glastür"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  },
+  {
+    "id": "umbau-rieterplatz-20",
+    "kategorie": "umbau-rieterplatz",
+    "reihenfolge": 111,
+    "bild": {
+      "bild": "umbau-rieterplatz-20",
+      "alt": "Fertig gestrichenes Zimmer mit Parkett und offener Tür"
+    },
+    "bildunterschrift": "Umbau Rieterplatz 5, Zürich"
+  }
+]

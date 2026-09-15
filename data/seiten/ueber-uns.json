@@ -1,0 +1,274 @@
+{
+  "id": "seite-ueber-uns",
+  "slug": "ueber-uns",
+  "titel": "Über uns",
+  "seoTitel": "Über uns – seit 1965 in Zürich",
+  "seoBeschreibung": "1965 von Werner Attinger gegründet, seit 2002 von Andreas Attinger geführt. Ausbildung, Mitgliedschaften und Zertifizierungen des Maler- und Tapeziergeschäfts in Zürich, Kreis 2.",
+  "kopfbild": {
+    "bild": "kopf-ueber-uns",
+    "alt": "Türkisblau gestrichene Wand mit Lichtschalter"
+  },
+  "bausteine": [
+    {
+      "_type": "spaltenBaustein",
+      "_key": "ueber-uns-spalten",
+      "kurzzeile": "Über uns",
+      "titel": "Über 50 Jahre Tradition",
+      "spalten": [
+        {
+          "_key": "u1",
+          "titel": "Seit 1965",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "f783e6139d80",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "08ac3d25fc20",
+                  "text": "Bereits 1965 von Werner Attinger gegründet, blickt das Maler- und Tapeziergeschäft auf eine über 50-jährige Tradition zurück.",
+                  "marks": []
+                }
+              ],
+              "markDefs": []
+            },
+            {
+              "_type": "block",
+              "_key": "2980f02ce2f4",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "538f60366a02",
+                  "text": "2002 übernahm sein Sohn Andreas Attinger das Geschäft von seinem Vater. Andreas Attinger ist im Kreis 2 geboren, aufgewachsen und auch heute noch dort wohnhaft.",
+                  "marks": []
+                }
+              ],
+              "markDefs": []
+            }
+          ]
+        },
+        {
+          "_key": "u2",
+          "titel": "Aus- und Weiterbildung",
+          "alsZeitstrahl": true,
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "0307918702b2",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "a8bee2a89bac",
+                  "text": "Maurerlehre 1983–1986",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "5fc68fd413c3",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "95620b15baf8",
+                  "text": "Militär 1986–1987",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "4d26e373d4dc",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "5653c3494733",
+                  "text": "Malerlehre 1988–1990",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "da28176df27a",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "813279c1a81f",
+                  "text": "Vorarbeiterschule und diverse Weiterbildungen ab 1992",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "45e255112c52",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "1a3a54f62420",
+                  "text": "Geschäftsinhaber seit 2002",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "_key": "u3",
+          "titel": "Mitgliedschaften / Netzwerk",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "a2f58292b9c8",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "2b88e0da6bac",
+                  "text": "Mitglied des Zürcher Malermeister Verbandes ZMV",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "2c2518bfecaf",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "c9f58ccf9dc9",
+                  "text": "Mitglied im Gewerbeverein Zürich 2",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "ea91f4513737",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "4460e781ec5d",
+                  "text": "Mitglied der Zunft Wollishofen seit 1995 (Bannerherr seit 2000)",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "_key": "u4",
+          "titel": "Spezielles",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "745e4cf52b8b",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "b649c5d6cc7f",
+                  "text": "Zertifiziert durch die Vollzugsorganisation Umweltschutz Malergewerbe des Kantons Zürich",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "6320cfda44eb",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "e15efd626f23",
+                  "text": "Ausgezeichnet mit der Schweizer Umweltetikette, Zertifikat der Schweizer Stiftung Farbe",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            },
+            {
+              "_type": "block",
+              "_key": "822cbe25e8e3",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "af2363e1dff2",
+                  "text": "Ausgewiesener Spezialist für Glasfasertapeten",
+                  "marks": []
+                }
+              ],
+              "markDefs": [],
+              "listItem": "bullet",
+              "level": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "bildBaustein",
+      "_key": "ueber-uns-bild",
+      "bild": {
+        "bild": "hero-lieferwagen",
+        "alt": "Andreas Attinger vor dem Firmenwagen von Attinger Maler- + Tapeziergeschäft",
+        "bildunterschrift": "Andreas Attinger, Geschäftsinhaber seit 2002"
+      }
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "ueber-uns-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

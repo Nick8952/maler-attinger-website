@@ -1,0 +1,743 @@
+{
+  "logo-attinger": {
+    "id": "logo-attinger",
+    "original": "assets/originale/attinger.png",
+    "breite": 1200,
+    "hoehe": 247,
+    "farbton": "#a20d43",
+    "quellen": [
+      {
+        "breite": 600,
+        "url": "/images/logo-attinger-600.png"
+      },
+      {
+        "breite": 1200,
+        "url": "/images/logo-attinger-1200.png"
+      }
+    ]
+  },
+  "hero-lieferwagen": {
+    "id": "hero-lieferwagen",
+    "original": "assets/originale/Maler_Attinger.png",
+    "breite": 1200,
+    "hoehe": 625,
+    "farbton": "#0c0e0d",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/hero-lieferwagen-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/hero-lieferwagen-960.webp"
+      }
+    ]
+  },
+  "hero-lieferwagen-hoch": {
+    "id": "hero-lieferwagen-hoch",
+    "original": "assets/originale/kontakt_rechts.jpg",
+    "breite": 576,
+    "hoehe": 738,
+    "farbton": "#70a8ea",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/hero-lieferwagen-hoch-480.webp"
+      }
+    ]
+  },
+  "kopf-ueber-uns": {
+    "id": "kopf-ueber-uns",
+    "original": "assets/originale/heder_about.jpg",
+    "breite": 1200,
+    "hoehe": 313,
+    "farbton": "#184e71",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/kopf-ueber-uns-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/kopf-ueber-uns-960.webp"
+      }
+    ]
+  },
+  "kopf-angebot": {
+    "id": "kopf-angebot",
+    "original": "assets/originale/header_arbeiten.jpg",
+    "breite": 1200,
+    "hoehe": 313,
+    "farbton": "#6f5610",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/kopf-angebot-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/kopf-angebot-960.webp"
+      }
+    ]
+  },
+  "kopf-kontakt": {
+    "id": "kopf-kontakt",
+    "original": "assets/originale/header_kontakt.png",
+    "breite": 1200,
+    "hoehe": 313,
+    "farbton": "#76acea",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/kopf-kontakt-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/kopf-kontakt-960.webp"
+      }
+    ]
+  },
+  "leistung-malerarbeiten": {
+    "id": "leistung-malerarbeiten",
+    "original": "assets/originale/malen.png",
+    "breite": 398,
+    "hoehe": 266,
+    "farbton": "#e5dcd3",
+    "quellen": [
+      {
+        "breite": 398,
+        "url": "/images/leistung-malerarbeiten-480.webp"
+      }
+    ]
+  },
+  "leistung-tapezierarbeiten": {
+    "id": "leistung-tapezierarbeiten",
+    "original": "assets/originale/tapete.png",
+    "breite": 398,
+    "hoehe": 266,
+    "farbton": "#e7e7e7",
+    "quellen": [
+      {
+        "breite": 398,
+        "url": "/images/leistung-tapezierarbeiten-480.webp"
+      }
+    ]
+  },
+  "leistung-spachtelarbeiten": {
+    "id": "leistung-spachtelarbeiten",
+    "original": "assets/originale/spachteln.png",
+    "breite": 398,
+    "hoehe": 266,
+    "farbton": "#b2956d",
+    "quellen": [
+      {
+        "breite": 398,
+        "url": "/images/leistung-spachtelarbeiten-480.webp"
+      }
+    ]
+  },
+  "leistung-maurerarbeiten": {
+    "id": "leistung-maurerarbeiten",
+    "original": "assets/originale/maurer.png",
+    "breite": 398,
+    "hoehe": 266,
+    "farbton": "#d6d0ca",
+    "quellen": [
+      {
+        "breite": 398,
+        "url": "/images/leistung-maurerarbeiten-480.webp"
+      }
+    ]
+  },
+  "leistung-gipserarbeiten": {
+    "id": "leistung-gipserarbeiten",
+    "original": "assets/originale/gips.png",
+    "breite": 398,
+    "hoehe": 266,
+    "farbton": "#757170",
+    "quellen": [
+      {
+        "breite": 398,
+        "url": "/images/leistung-gipserarbeiten-480.webp"
+      }
+    ]
+  },
+  "leistung-umwelt": {
+    "id": "leistung-umwelt",
+    "original": "assets/originale/umwelt.png",
+    "breite": 500,
+    "hoehe": 334,
+    "farbton": "#c8cb0e",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/leistung-umwelt-480.webp"
+      }
+    ]
+  },
+  "partner-umweltetikette": {
+    "id": "partner-umweltetikette",
+    "original": "assets/originale/oekologie.png",
+    "breite": 768,
+    "hoehe": 1060,
+    "farbton": "#c7ca0d",
+    "quellen": [
+      {
+        "breite": 240,
+        "url": "/images/partner-umweltetikette-240.webp"
+      },
+      {
+        "breite": 480,
+        "url": "/images/partner-umweltetikette-480.webp"
+      }
+    ]
+  },
+  "partner-zueri2": {
+    "id": "partner-zueri2",
+    "original": "assets/originale/zueri2.png",
+    "breite": 385,
+    "hoehe": 532,
+    "farbton": "#edf1fa",
+    "quellen": [
+      {
+        "breite": 240,
+        "url": "/images/partner-zueri2-240.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-01": {
+    "id": "umbau-rieterplatz-01",
+    "original": "assets/originale/umbau/1.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#91918e",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-01-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-01-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-01-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-02": {
+    "id": "umbau-rieterplatz-02",
+    "original": "assets/originale/umbau/2.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#919191",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-02-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-02-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-02-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-04": {
+    "id": "umbau-rieterplatz-04",
+    "original": "assets/originale/umbau/4.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#ad9375",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-04-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-04-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-04-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-06": {
+    "id": "umbau-rieterplatz-06",
+    "original": "assets/originale/umbau/6.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#af9888",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-06-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-06-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-06-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-07": {
+    "id": "umbau-rieterplatz-07",
+    "original": "assets/originale/umbau/7.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#b1ada9",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-07-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-07-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-07-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-08": {
+    "id": "umbau-rieterplatz-08",
+    "original": "assets/originale/umbau/8.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#ae9571",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-08-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-08-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-08-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-10": {
+    "id": "umbau-rieterplatz-10",
+    "original": "assets/originale/umbau/10.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#b09572",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-10-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-10-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-10-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-13": {
+    "id": "umbau-rieterplatz-13",
+    "original": "assets/originale/umbau/13.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#97928d",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-13-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-13-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-13-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-14": {
+    "id": "umbau-rieterplatz-14",
+    "original": "assets/originale/umbau/14.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#76736d",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-14-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-14-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-14-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-17": {
+    "id": "umbau-rieterplatz-17",
+    "original": "assets/originale/umbau/17.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#a49b92",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-17-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-17-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-17-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-19": {
+    "id": "umbau-rieterplatz-19",
+    "original": "assets/originale/umbau/19.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#847b73",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-19-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-19-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-19-1600.webp"
+      }
+    ]
+  },
+  "umbau-rieterplatz-20": {
+    "id": "umbau-rieterplatz-20",
+    "original": "assets/originale/umbau/20.JPG",
+    "breite": 2288,
+    "hoehe": 1712,
+    "farbton": "#ac9071",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/umbau-rieterplatz-20-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/umbau-rieterplatz-20-960.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/umbau-rieterplatz-20-1600.webp"
+      }
+    ]
+  },
+  "referenz-001": {
+    "id": "referenz-001",
+    "original": "assets/originale/arbeiten/image001.jpg",
+    "breite": 639,
+    "hoehe": 960,
+    "farbton": "#c3ba92",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-001-480.webp"
+      }
+    ]
+  },
+  "referenz-002": {
+    "id": "referenz-002",
+    "original": "assets/originale/arbeiten/image002.jpg",
+    "breite": 639,
+    "hoehe": 960,
+    "farbton": "#d1c6ab",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-002-480.webp"
+      }
+    ]
+  },
+  "referenz-003": {
+    "id": "referenz-003",
+    "original": "assets/originale/arbeiten/image003.jpg",
+    "breite": 639,
+    "hoehe": 960,
+    "farbton": "#555648",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-003-480.webp"
+      }
+    ]
+  },
+  "referenz-004": {
+    "id": "referenz-004",
+    "original": "assets/originale/arbeiten/image004.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#d6d1cc",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-004-480.webp"
+      }
+    ]
+  },
+  "referenz-009": {
+    "id": "referenz-009",
+    "original": "assets/originale/arbeiten/image009.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#7287af",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-009-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-009-960.webp"
+      }
+    ]
+  },
+  "referenz-010": {
+    "id": "referenz-010",
+    "original": "assets/originale/arbeiten/image010.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#adb752",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-010-480.webp"
+      }
+    ]
+  },
+  "referenz-011": {
+    "id": "referenz-011",
+    "original": "assets/originale/arbeiten/image011.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#b1b5af",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-011-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-011-960.webp"
+      }
+    ]
+  },
+  "referenz-012": {
+    "id": "referenz-012",
+    "original": "assets/originale/arbeiten/image012.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#b45718",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-012-480.webp"
+      }
+    ]
+  },
+  "referenz-013": {
+    "id": "referenz-013",
+    "original": "assets/originale/arbeiten/image013.jpg",
+    "breite": 960,
+    "hoehe": 718,
+    "farbton": "#195170",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-013-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-013-960.webp"
+      }
+    ]
+  },
+  "referenz-014": {
+    "id": "referenz-014",
+    "original": "assets/originale/arbeiten/image014.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#75736e",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-014-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-014-960.webp"
+      }
+    ]
+  },
+  "referenz-016": {
+    "id": "referenz-016",
+    "original": "assets/originale/arbeiten/image016.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#685535",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-016-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-016-960.webp"
+      }
+    ]
+  },
+  "referenz-018": {
+    "id": "referenz-018",
+    "original": "assets/originale/arbeiten/image018.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#595249",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-018-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-018-960.webp"
+      }
+    ]
+  },
+  "referenz-020": {
+    "id": "referenz-020",
+    "original": "assets/originale/arbeiten/image020.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#8b8c89",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-020-480.webp"
+      }
+    ]
+  },
+  "referenz-021": {
+    "id": "referenz-021",
+    "original": "assets/originale/arbeiten/image021.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#59452c",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-021-480.webp"
+      }
+    ]
+  },
+  "referenz-022": {
+    "id": "referenz-022",
+    "original": "assets/originale/arbeiten/image022.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#575349",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-022-480.webp"
+      }
+    ]
+  },
+  "referenz-023": {
+    "id": "referenz-023",
+    "original": "assets/originale/arbeiten/image023.jpg",
+    "breite": 720,
+    "hoehe": 960,
+    "farbton": "#993135",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-023-480.webp"
+      }
+    ]
+  },
+  "referenz-024": {
+    "id": "referenz-024",
+    "original": "assets/originale/arbeiten/image024.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#6f7270",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-024-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-024-960.webp"
+      }
+    ]
+  },
+  "referenz-025": {
+    "id": "referenz-025",
+    "original": "assets/originale/arbeiten/image025.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#787542",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-025-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-025-960.webp"
+      }
+    ]
+  },
+  "referenz-026": {
+    "id": "referenz-026",
+    "original": "assets/originale/arbeiten/image026.jpg",
+    "breite": 960,
+    "hoehe": 720,
+    "farbton": "#8a7819",
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/referenz-026-480.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/referenz-026-960.webp"
+      }
+    ]
+  }
+}

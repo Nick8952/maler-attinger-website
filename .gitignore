@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Server-Routen (Studio, API) werden nur beim Vercel-Build aus server-routes/ nach app/ kopiert
+/app/studio
+/app/api
+
+# lokale Prüfausgaben
+/pruefung

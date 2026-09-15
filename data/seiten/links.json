@@ -1,0 +1,65 @@
+{
+  "id": "seite-links",
+  "slug": "links",
+  "titel": "Links",
+  "seoTitel": "Links – Verbände, Umweltschutz und Farbtonkarten",
+  "seoBeschreibung": "Weiterführende Links: VUM Zürich, Stiftung Farbe, Gewerbeverein Zürich 2, Zürcher Malermeister Verband, Color Studio Farbtonkarten, Zunft Wollishofen.",
+  "bausteine": [
+    {
+      "_type": "linklisteBaustein",
+      "_key": "links-liste",
+      "kurzzeile": "Links",
+      "titel": "Verbände, Umweltschutz und Farbtonkarten",
+      "links": [
+        {
+          "_key": "l1",
+          "titel": "Vollzugsorganisation Umweltschutz Malergewerbe Kanton Zürich (VUM)",
+          "url": "https://www.vumzuerich.ch"
+        },
+        {
+          "_key": "l2",
+          "titel": "Stiftung Farbe",
+          "beschreibung": "Die passende Farbe für die richtige Anwendung",
+          "url": "https://www.stiftungfarbe.ch"
+        },
+        {
+          "_key": "l3",
+          "titel": "Gewerbeverein Zürich 2",
+          "beschreibung": "Die Plattform von 150 Gewerbetreibenden aus den Zürcher Stadtquartieren Enge, Leimbach und Wollishofen",
+          "url": "https://www.zueri2.ch"
+        },
+        {
+          "_key": "l4",
+          "titel": "Zürcher Malermeister Verband (ZMV)",
+          "url": "https://www.zmv.ch"
+        },
+        {
+          "_key": "l5",
+          "titel": "Color Studio Farbtonkarten",
+          "url": "https://www.knuchel.swiss/Color-Collection"
+        },
+        {
+          "_key": "l6",
+          "titel": "Zunft Wollishofen",
+          "beschreibung": "Homepage der Zunft Wollishofen",
+          "url": "https://www.zunftwollishofen.ch"
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "links-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

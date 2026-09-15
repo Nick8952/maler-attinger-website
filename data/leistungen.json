@@ -1,0 +1,81 @@
+[
+  {
+    "id": "leistung-malerarbeiten",
+    "titel": "Malerarbeiten",
+    "punkte": [
+      "Innen und Aussen",
+      "Renovationen"
+    ],
+    "bild": {
+      "bild": "leistung-malerarbeiten",
+      "alt": "Farbrolle und drei frisch gerollte Farbstreifen in Grün, Orange und Rot an einer Wand"
+    },
+    "reihenfolge": 1
+  },
+  {
+    "id": "leistung-tapezierarbeiten",
+    "titel": "Tapezierarbeiten",
+    "punkte": [
+      "Raufaser",
+      "Glasfaser"
+    ],
+    "bild": {
+      "bild": "leistung-tapezierarbeiten",
+      "alt": "Aufgerollte Tapetenbahn"
+    },
+    "reihenfolge": 2
+  },
+  {
+    "id": "leistung-spachtelarbeiten",
+    "titel": "Spachtelarbeiten",
+    "punkte": [
+      "Verputze",
+      "Stucco Veneziano"
+    ],
+    "bild": {
+      "bild": "leistung-spachtelarbeiten",
+      "alt": "Hand verspachtelt eine Leitungsschlitz in der Wand"
+    },
+    "reihenfolge": 3
+  },
+  {
+    "id": "leistung-maurerarbeiten",
+    "titel": "Maurerarbeiten",
+    "punkte": [
+      "Durchbrüche",
+      "Schlitze"
+    ],
+    "bild": {
+      "bild": "leistung-maurerarbeiten",
+      "alt": "Hammer, Meissel und Backsteine"
+    },
+    "reihenfolge": 4
+  },
+  {
+    "id": "leistung-gipserarbeiten",
+    "titel": "Gipserarbeiten",
+    "punkte": [
+      "Stuckaturen",
+      "Spezialputze"
+    ],
+    "bild": {
+      "bild": "leistung-gipserarbeiten",
+      "alt": "Struktur eines grauen Putzes in Nahaufnahme"
+    },
+    "reihenfolge": 5
+  },
+  {
+    "id": "leistung-umwelt",
+    "titel": "Umwelt / Ökologie",
+    "punkte": [
+      "umweltverträglich",
+      "geruchsarm",
+      "qualitativ hochstehend"
+    ],
+    "bild": {
+      "bild": "leistung-umwelt",
+      "alt": "Die Schweizer Umweltetikette"
+    },
+    "reihenfolge": 6
+  }
+]

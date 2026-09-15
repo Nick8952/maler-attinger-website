@@ -1,0 +1,35 @@
+{
+  "id": "seite-renovation-umbau",
+  "slug": "renovation-umbau",
+  "titel": "Renovation / Umbau",
+  "seoTitel": "Renovation / Umbau – Bildstrecke Rieterplatz 5, Zürich",
+  "seoBeschreibung": "Zwölf Aufnahmen vom Umbau am Rieterplatz 5 in Zürich: Wände freilegen, Schlitze spachteln, tapezieren und streichen.",
+  "bausteine": [
+    {
+      "_type": "galerieBaustein",
+      "_key": "umbau-galerie",
+      "kurzzeile": "Renovation / Umbau",
+      "titel": "Umbau Rieterplatz 5, Zürich",
+      "text": "Zwölf Aufnahmen von einer Baustelle: von den freigelegten Wänden über Leitungsschlitze, Spachtel- und Tapezierarbeiten bis zum fertig gestrichenen Raum.",
+      "kategorien": [
+        "umbau-rieterplatz"
+      ],
+      "darstellung": "bildstrecke"
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "umbau-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

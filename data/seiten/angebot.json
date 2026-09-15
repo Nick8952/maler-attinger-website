@@ -1,0 +1,35 @@
+{
+  "id": "seite-angebot",
+  "slug": "angebot",
+  "titel": "Angebot",
+  "seoTitel": "Angebot – Maler-, Tapezier-, Spachtel-, Maurer- und Gipserarbeiten",
+  "seoBeschreibung": "Malerarbeiten innen und aussen, Renovationen, Raufaser- und Glasfasertapeten, Verputze, Stucco Veneziano, Durchbrüche, Schlitze, Stuckaturen und Spezialputze – umweltverträglich und geruchsarm.",
+  "kopfbild": {
+    "bild": "kopf-angebot",
+    "alt": "Gelb gestrichene Wand mit weisser Leiste und Türrahmen"
+  },
+  "bausteine": [
+    {
+      "_type": "leistungenBaustein",
+      "_key": "angebot-leistungen",
+      "kurzzeile": "Angebot",
+      "titel": "Was wir für Sie machen",
+      "einleitung": "Sechs Bereiche aus einer Hand – vom Anstrich bis zum Mauerdurchbruch."
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "angebot-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

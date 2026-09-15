@@ -1,0 +1,172 @@
+{
+  "id": "seite-start",
+  "slug": "start",
+  "titel": "Start",
+  "seoTitel": "Maler- und Tapeziergeschäft in Zürich, Kreis 2",
+  "seoBeschreibung": "Attinger Maler- + Tapeziergeschäft, Zürich: seit 1965 Malerarbeiten innen und aussen, Tapezier-, Spachtel-, Maurer- und Gipserarbeiten – umweltverträglich und geruchsarm.",
+  "hero": {
+    "kurzzeile": "Maler- und Tapeziergeschäft · Zürich, Kreis 2",
+    "titel": "Malen, tapezieren, verputzen – seit 1965 im Kreis 2.",
+    "text": "1965 von Werner Attinger gegründet, seit 2002 von Andreas Attinger geführt: Malerarbeiten innen und aussen, Tapezier-, Spachtel-, Maurer- und Gipserarbeiten – umweltverträglich und geruchsarm.",
+    "bild": {
+      "bild": "hero-lieferwagen",
+      "alt": "Andreas Attinger vor dem weissen Firmenwagen von Attinger Maler- + Tapeziergeschäft"
+    },
+    "bildHoch": {
+      "bild": "hero-lieferwagen-hoch",
+      "alt": "Andreas Attinger neben dem Firmenwagen unter einer Trauerweide"
+    },
+    "knopf": {
+      "titel": "Anfrage senden",
+      "ziel": "/kontakt"
+    },
+    "zweiterKnopf": {
+      "titel": "043 399 96 60",
+      "ziel": "tel:+41433999660"
+    }
+  },
+  "bausteine": [
+    {
+      "_type": "leistungenBaustein",
+      "_key": "start-leistungen",
+      "kurzzeile": "Angebot",
+      "titel": "Sechs Bereiche, ein Betrieb.",
+      "einleitung": "Malerarbeiten, Tapezieren, Spachteln, Maurer- und Gipserarbeiten – umweltverträglich, geruchsarm und qualitativ hochstehend."
+    },
+    {
+      "_type": "galerieBaustein",
+      "_key": "start-farbkarte",
+      "kurzzeile": "Innen- & Aussenarbeiten",
+      "titel": "Farbkarte aus echten Aufträgen",
+      "text": "Jede Kachel zeigt einen Ausschnitt aus einem Auftrag. Der Farbton daneben ist direkt aus dem Foto gelesen.",
+      "kategorien": [
+        "wohnungen",
+        "fassaden-treppen",
+        "garagen"
+      ],
+      "darstellung": "farbkarte",
+      "maximal": 6,
+      "weiterLink": {
+        "titel": "Alle 19 Aufnahmen ansehen",
+        "ziel": "/innen-aussenarbeiten"
+      }
+    },
+    {
+      "_type": "spaltenBaustein",
+      "_key": "start-ueber-uns",
+      "kurzzeile": "Über uns",
+      "titel": "Familienbetrieb in zweiter Generation",
+      "spalten": [
+        {
+          "_key": "s1",
+          "titel": "Seit 1965",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "0dd34ef4afd2",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "4e4e96a792ec",
+                  "text": "Bereits 1965 von Werner Attinger gegründet, blickt das Maler- und Tapeziergeschäft auf eine über 50-jährige Tradition zurück. 2002 übernahm sein Sohn Andreas Attinger das Geschäft von seinem Vater.",
+                  "marks": []
+                }
+              ],
+              "markDefs": []
+            }
+          ]
+        },
+        {
+          "_key": "s2",
+          "titel": "Im Kreis 2 verwurzelt",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "fe69f80e2049",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "6098df81bc35",
+                  "text": "Andreas Attinger ist im Kreis 2 geboren, aufgewachsen und auch heute noch dort wohnhaft. Mitglied im Gewerbeverein Zürich 2 und in der Zunft Wollishofen seit 1995.",
+                  "marks": []
+                }
+              ],
+              "markDefs": []
+            },
+            {
+              "_type": "block",
+              "_key": "ebcb50a998c4",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "70e6e0f2bfea",
+                  "text": "Mehr über uns",
+                  "marks": [
+                    "160a29f02532"
+                  ]
+                }
+              ],
+              "markDefs": [
+                {
+                  "_type": "link",
+                  "_key": "160a29f02532",
+                  "href": "/ueber-uns",
+                  "extern": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "s3",
+          "titel": "Umwelt und Qualität",
+          "inhalt": [
+            {
+              "_type": "block",
+              "_key": "ec9a3bf22925",
+              "style": "normal",
+              "children": [
+                {
+                  "_type": "span",
+                  "_key": "a3c24a1883ce",
+                  "text": "Zertifiziert durch die Vollzugsorganisation Umweltschutz Malergewerbe des Kantons Zürich, ausgezeichnet mit der Schweizer Umweltetikette der Stiftung Farbe, Mitglied des Zürcher Malermeister Verbandes ZMV.",
+                  "marks": []
+                }
+              ],
+              "markDefs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "start-umbau",
+      "kurzzeile": "Renovation / Umbau",
+      "titel": "Umbau Rieterplatz 5, Zürich",
+      "text": "Zwölf Aufnahmen von der Baustelle: freigelegte Wände, Leitungsschlitze, Spachtel-, Tapezier- und Malerarbeiten bis zum fertigen Raum.",
+      "knopf": {
+        "titel": "Bildstrecke ansehen",
+        "ziel": "/renovation-umbau"
+      }
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "start-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

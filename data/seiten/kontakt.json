@@ -1,0 +1,25 @@
+{
+  "id": "seite-kontakt",
+  "slug": "kontakt",
+  "titel": "Kontakt",
+  "seoTitel": "Kontakt – Hoffnungsstrasse 3, 8038 Zürich",
+  "seoBeschreibung": "Andreas Attinger, Attinger Maler- + Tapeziergeschäft, Hoffnungsstrasse 3, 8038 Zürich. Telefon 043 399 96 60, Mobil 079 209 59 82, info@maler-attinger.ch.",
+  "kopfbild": {
+    "bild": "kopf-kontakt",
+    "alt": "Trauerweide vor blauem Himmel"
+  },
+  "bausteine": [
+    {
+      "_type": "kontaktBaustein",
+      "_key": "kontakt-formular",
+      "kurzzeile": "Kontakt",
+      "titel": "Rufen Sie an oder schreiben Sie uns",
+      "einleitung": "Beschreiben Sie kurz, worum es geht – Wohnung, Fassade, Renovation oder Umbau – und wie wir Sie erreichen.",
+      "formularHinweis": "«E-Mail vorbereiten» öffnet Ihr E-Mail-Programm mit den eingetragenen Angaben an info@maler-attinger.ch. Die Nachricht wird erst verschickt, wenn Sie sie dort absenden. Diese Website speichert Ihre Eingaben nicht.",
+      "bild": {
+        "bild": "hero-lieferwagen-hoch",
+        "alt": "Andreas Attinger neben dem Firmenwagen"
+      }
+    }
+  ]
+}

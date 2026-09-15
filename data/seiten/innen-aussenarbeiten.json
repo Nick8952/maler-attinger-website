@@ -1,0 +1,37 @@
+{
+  "id": "seite-innen-aussenarbeiten",
+  "slug": "innen-aussenarbeiten",
+  "titel": "Innen- / Aussenarbeiten",
+  "seoTitel": "Innen- und Aussenarbeiten – Wohnungen, Fassaden, Treppen, Garagen",
+  "seoBeschreibung": "19 Aufnahmen aus Aufträgen von Attinger Maler- + Tapeziergeschäft: Wohnungen, Fassaden und Treppen, Garagen – als Farbkarte mit den Farbtönen aus den Fotos.",
+  "bausteine": [
+    {
+      "_type": "galerieBaustein",
+      "_key": "arbeiten-farbkarte",
+      "kurzzeile": "Innen- / Aussenarbeiten",
+      "titel": "Wohnungen, Fassaden, Treppen, Garagen",
+      "text": "19 Aufnahmen aus Aufträgen. Der Farbton neben jedem Bild ist direkt aus dem Foto gelesen – nach Kategorie filterbar.",
+      "kategorien": [
+        "wohnungen",
+        "fassaden-treppen",
+        "garagen"
+      ],
+      "darstellung": "farbkarte"
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "arbeiten-kontakt",
+      "kurzzeile": "Kontakt",
+      "titel": "Anfrage oder Frage?",
+      "text": "Andreas Attinger ist telefonisch, mobil oder per E-Mail erreichbar.",
+      "knopf": {
+        "titel": "Anfrage senden",
+        "ziel": "/kontakt"
+      },
+      "zweiterKnopf": {
+        "titel": "043 399 96 60",
+        "ziel": "tel:+41433999660"
+      }
+    }
+  ]
+}

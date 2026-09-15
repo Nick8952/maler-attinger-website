@@ -1,0 +1,13 @@
+{
+  "id": "seite-impressum",
+  "slug": "impressum",
+  "titel": "Impressum",
+  "seoBeschreibung": "Impressum dieser Demo-Website und Angaben zum dargestellten Unternehmen Attinger Maler- + Tapeziergeschäft, Zürich.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "impressum-text",
+      "rechtstext": "impressum"
+    }
+  ]
+}

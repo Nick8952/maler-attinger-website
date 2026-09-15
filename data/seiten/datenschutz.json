@@ -1,0 +1,13 @@
+{
+  "id": "seite-datenschutz",
+  "slug": "datenschutz",
+  "titel": "Datenschutzerklärung",
+  "seoBeschreibung": "Datenschutzerklärung dieser auf GitHub Pages veröffentlichten Demo-Website.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "datenschutz-text",
+      "rechtstext": "datenschutz"
+    }
+  ]
+}
