@@ -328,13 +328,13 @@
     },
     {
       "_type": "block",
-      "_key": "9921c1a7f12a",
+      "_key": "29c1421c4d64",
       "style": "normal",
       "children": [
         {
           "_type": "span",
-          "_key": "449e01042f57",
-          "text": "Wenn Sie den Betreiber dieser Demo per E-Mail kontaktieren, werden Ihre Angaben (E-Mail-Adresse, Inhalt, Zeitpunkt) zur Beantwortung Ihrer Anfrage bearbeitet und so lange aufbewahrt, wie es für die Bearbeitung und allfällige Nachfragen nötig ist.",
+          "_key": "317719e8970b",
+          "text": "Wenn Sie den Betreiber dieser Demo per E-Mail kontaktieren, werden Ihre Angaben (E-Mail-Adresse, Inhalt, Zeitpunkt) zur Beantwortung Ihrer Anfrage bearbeitet und so lange aufbewahrt, wie es für die Bearbeitung und allfällige Nachfragen nötig ist. Das E-Mail-Postfach des Betreibers wird bei Google (Gmail; Google LLC, USA) geführt; Ihre Nachricht wird dort empfangen und gespeichert. Google LLC ist nach eigenen Angaben unter dem EU-U.S. und dem Swiss-U.S. Data Privacy Framework zertifiziert.",
           "marks": []
         }
       ],

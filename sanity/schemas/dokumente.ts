@@ -33,7 +33,7 @@ export const einstellungenTyp = defineType({
       group: "seo",
       fields: [
         defineField({ name: "titelZusatz", title: "Titelzusatz", type: "string", description: "Wird an jeden Seitentitel angehängt, z. B. «Attinger Maler + Tapeziergeschäft, Zürich»." }),
-        defineField({ name: "beschreibung", title: "Standard-Beschreibung", type: "text", rows: 3, validation: (r) => r.max(160) }),
+        defineField({ name: "beschreibung", title: "Standard-Beschreibung", type: "text", rows: 3, validation: (r) => r.max(160).warning("Suchmaschinen zeigen meist nur ~160 Zeichen.") }),
         defineField({ name: "bild", title: "Vorschaubild (Social Media)", type: "bild" }),
       ],
     }),
@@ -86,8 +86,8 @@ export const seiteTyp = defineType({
     }),
     defineField({ name: "kopfbild", title: "Kopfbild", type: "bild", group: "kopf", description: "Schmales Bild über dem Seitentitel (Unterseiten)." }),
     defineField({ name: "bausteine", title: "Bausteine", type: "array", group: "inhalt", of: bausteinMitglieder }),
-    defineField({ name: "seoTitel", title: "Seitentitel (Browser-Tab)", type: "string", group: "seo", validation: (r) => r.max(70) }),
-    defineField({ name: "seoBeschreibung", title: "Beschreibung (Suchergebnis)", type: "text", rows: 3, group: "seo", validation: (r) => r.max(160) }),
+    defineField({ name: "seoTitel", title: "Seitentitel (Browser-Tab)", type: "string", group: "seo", validation: (r) => r.max(70).warning("Suchmaschinen kürzen Titel über ~70 Zeichen.") }),
+    defineField({ name: "seoBeschreibung", title: "Beschreibung (Suchergebnis)", type: "text", rows: 3, group: "seo", validation: (r) => r.max(160).warning("Suchmaschinen zeigen meist nur ~160 Zeichen.") }),
   ],
   preview: { select: { title: "titel", subtitle: "slug.current" } },
 });
@@ -98,7 +98,7 @@ export const leistungTyp = defineType({
   type: "document",
   fields: [
     defineField({ name: "titel", title: "Titel", type: "string", validation: (r) => r.required() }),
-    defineField({ name: "punkte", title: "Stichpunkte", type: "array", of: [defineArrayMember({ type: "string" })], validation: (r) => r.min(1) }),
+    defineField({ name: "punkte", title: "Stichpunkte", type: "array", of: [defineArrayMember({ type: "string" })], validation: (r) => r.required().min(1) }),
     defineField({ name: "bild", title: "Bild", type: "bild", validation: (r) => r.required() }),
     defineField({ name: "reihenfolge", title: "Reihenfolge", type: "number", validation: (r) => r.required().integer() }),
   ],

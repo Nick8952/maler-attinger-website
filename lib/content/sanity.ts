@@ -35,13 +35,13 @@ const BAUSTEINE = `bausteine[] {
   _type == "leistungenBaustein" => {
     einleitung,
     "leistungen": select(
-      count(leistungen) > 0 => leistungen[]-> ${LEISTUNG},
+      coalesce(count(leistungen), 0) > 0 => leistungen[]-> ${LEISTUNG},
       *[_type == "leistung"] | order(reihenfolge asc) ${LEISTUNG}
     )
   },
   _type == "galerieBaustein" => {
     text, kategorien, darstellung, maximal, weiterLink ${LINK},
-    "referenzen": *[_type == "referenz" && (count(^.kategorien) == 0 || kategorie in ^.kategorien)] | order(reihenfolge asc) ${REFERENZ}
+    "referenzen": *[_type == "referenz" && (coalesce(count(^.kategorien), 0) == 0 || kategorie in ^.kategorien)] | order(reihenfolge asc) ${REFERENZ}
   },
   _type == "spaltenBaustein" => { spalten[] { _key, titel, inhalt, alsZeitstrahl } },
   _type == "kontaktBaustein" => { einleitung, formularHinweis, bild ${BILD_PROJEKTION} },
@@ -73,19 +73,38 @@ const bildAus = (o: unknown, alt = "") => sanityBild(o as SanityBildRoh | undefi
 function bausteinAufbereiten(b: Roh): Baustein {
   switch (b._type) {
     case "leistungenBaustein":
-      return { ...(b as object), leistungen: ((b.leistungen as Roh[]) ?? []).map(leistungAufbereiten) } as Baustein;
+      // Wie lokal: Auswahl in globaler Reihenfolge, nicht in Auswahlreihenfolge
+      return { ...(b as object), leistungen: ((b.leistungen as Roh[]) ?? []).map(leistungAufbereiten).sort((x, y) => x.reihenfolge - y.reihenfolge) } as Baustein;
     case "galerieBaustein":
       return { ...(b as object), kategorien: (b.kategorien as ReferenzKategorie[]) ?? [], referenzen: ((b.referenzen as Roh[]) ?? []).map(referenzAufbereiten) } as Baustein;
     case "kontaktBaustein":
       return { ...(b as object), bild: bildAus(b.bild) } as Baustein;
-    case "bildBaustein":
-      return { ...(b as object), bild: bildAus(b.bild)! } as Baustein;
+    case "bildBaustein": {
+      const bild = bildAus(b.bild);
+      if (!bild) throw new Error(`Sanity: bildBaustein ${b._key} ohne Bild.`);
+      return { ...(b as object), bild } as Baustein;
+    }
+    case "spaltenBaustein":
+      return { ...(b as object), spalten: (b.spalten as unknown[]) ?? [] } as Baustein;
+    case "linklisteBaustein":
+      return { ...(b as object), links: (b.links as unknown[]) ?? [] } as Baustein;
+    case "rechtstextBaustein":
+      if (!b.rechtstext) throw new Error(`Sanity: rechtstextBaustein ${b._key} ohne Rechtstext.`);
+      return b as unknown as Baustein;
     default:
       return b as unknown as Baustein;
   }
 }
-const leistungAufbereiten = (l: Roh): Leistung => ({ ...(l as object), bild: bildAus(l.bild, l.titel as string)! }) as Leistung;
-const referenzAufbereiten = (r: Roh): Referenz => ({ ...(r as object), bild: bildAus(r.bild, (r.bildunterschrift as string) ?? "")! }) as Referenz;
+function leistungAufbereiten(l: Roh): Leistung {
+  const bild = bildAus(l.bild, l.titel as string);
+  if (!bild) throw new Error(`Sanity: Leistung ${l.id} ohne Bild.`);
+  return { ...(l as object), punkte: (l.punkte as string[]) ?? [], bild } as Leistung;
+}
+function referenzAufbereiten(r: Roh): Referenz {
+  const bild = bildAus(r.bild, (r.bildunterschrift as string) ?? "");
+  if (!bild) throw new Error(`Sanity: Referenz ${r.id} ohne Bild.`);
+  return { ...(r as object), bild } as Referenz;
+}
 
 export const sanityQuelle: Inhaltsquelle = {
   async getEinstellungen() {

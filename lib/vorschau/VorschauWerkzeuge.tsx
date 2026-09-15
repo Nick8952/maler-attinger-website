@@ -1,4 +1,4 @@
-import { VisualEditing } from "next-sanity/visual-editing";
+import { VorschauClient } from "./VorschauClient";
 import { istVorschau } from "./status";
 import { deployZiel } from "@/lib/deploy-ziel";
 
@@ -10,7 +10,7 @@ export async function VorschauWerkzeuge() {
   if (deployZiel !== "vercel" || !(await istVorschau())) return null;
   return (
     <>
-      <VisualEditing />
+      <VorschauClient />
       {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- API-Route, kein Seitenwechsel per Router */}
       <a
         href="/api/vorschau/beenden"

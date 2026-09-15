@@ -96,7 +96,7 @@ export const spaltenBaustein = defineType({
       name: "spalten",
       title: "Spalten",
       type: "array",
-      validation: (r) => r.min(1).max(4),
+      validation: (r) => r.required().min(1).max(4),
       of: [
         defineArrayMember({
           type: "object",
@@ -137,6 +137,7 @@ export const linklisteBaustein = defineType({
       name: "links",
       title: "Links",
       type: "array",
+      validation: (r) => r.required().min(1),
       of: [
         defineArrayMember({
           type: "object",

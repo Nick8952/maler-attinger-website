@@ -1,6 +1,7 @@
 "use client";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 /**
  * «Datenschutz-Einstellungen» – bewusst ohne Schalter: Diese Demo setzt keine Cookies,
@@ -12,6 +13,10 @@ import Link from "next/link";
  */
 export function DatenschutzEinstellungen() {
   const ref = useRef<HTMLDialogElement>(null);
+  const pfad = usePathname();
+  useEffect(() => {
+    ref.current?.close();
+  }, [pfad]);
   return (
     <>
       <button
@@ -45,7 +50,7 @@ export function DatenschutzEinstellungen() {
           </dl>
           <p className="mt-5 text-sm text-tinte-2">
             Weil keine einwilligungspflichtigen Dienste im Einsatz sind, gibt es keinen Cookie-Banner und keine Schalter, die nichts bewirken würden.
-            Details: <Link href="/datenschutz" className="text-bordeaux underline underline-offset-4">Datenschutzerklärung</Link>.
+            Details: <Link href="/datenschutz" className="text-bordeaux underline underline-offset-4" onClick={() => ref.current?.close()}>Datenschutzerklärung</Link>.
           </p>
           <div className="mt-6 flex justify-end">
             <button type="submit" className="knopf knopf-primaer" autoFocus>

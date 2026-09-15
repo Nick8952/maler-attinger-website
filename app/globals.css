@@ -15,6 +15,7 @@
   --color-kalk: #ffffff;
   --color-grundierung: #f3f0ec;
   --color-linie: #dcd6cf;
+  --color-rahmen: #857d7b; /* Formularränder: ≥ 3:1 auf Weiss */
   --color-fokus: #1c50be;
 
   --font-sans: "Archivo", "Archivo Fallback", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -101,6 +102,8 @@
   letter-spacing: -0.022em;
   line-height: 1.02;
   text-wrap: balance;
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 @utility schrift-etikett {
   font-stretch: 80%;
@@ -184,7 +187,8 @@
   & ul { list-style: disc; }
   & ol { list-style: decimal; }
   & li + li { margin-top: 0.35em; }
-  & a { color: var(--color-bordeaux); text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1.5px; }
+  /* Textlinks: sichtbar unterstrichen; unsichtbar vergrösserte Klickfläche (≥ 44 px) ohne Layoutänderung */
+  & a { color: var(--color-bordeaux); text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1.5px; padding-block: 0.8em; margin-block: -0.8em; }
   & a:hover { color: var(--color-bordeaux-dunkel); }
   & strong { font-weight: 640; }
 }
@@ -217,6 +221,11 @@
 /* Fokusring sofort zeigen, nicht einblenden (ungeschichtet, damit es die Transition-Utilities überstimmt) */
 :focus-visible {
   transition-property: background-color, color, box-shadow, transform;
+}
+/* Auf dunklen Flächen (Footer, Aufruf-Band, Lightbox) ein weisser Ring – Blau hätte dort zu wenig Kontrast */
+.bg-tinte :focus-visible,
+.bg-bordeaux :focus-visible {
+  outline-color: #fff;
 }
 
 /* Dialoge (Menü, Lightbox, Datenschutz-Einstellungen) */

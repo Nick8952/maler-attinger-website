@@ -45,7 +45,9 @@ export function KontaktFormular({ email, hinweis }: Props) {
   }
 
   return (
-    <form onSubmit={absenden} className="grid gap-5 sm:grid-cols-2" noValidate={false}>
+    // Ohne JavaScript: action=mailto (Browser öffnet das E-Mail-Programm mit den Feldern als Text) –
+    // es wird nie etwas an den Hosting-Server gesendet. Mit JavaScript baut `absenden` eine lesbare Nachricht.
+    <form onSubmit={absenden} action={`mailto:${email}`} method="post" encType="text/plain" className="grid gap-5 sm:grid-cols-2">
       {FELDER.map((f) => (
         <div key={f.name} className={"kurz" in f && f.kurz ? "sm:col-span-1" : f.name === "adresse" || f.name === "email" ? "sm:col-span-2" : ""}>
           <label htmlFor={`${id}-${f.name}`} className="block text-sm font-semibold">
@@ -59,7 +61,7 @@ export function KontaktFormular({ email, hinweis }: Props) {
             required={f.pflicht}
             autoComplete={f.autoComplete}
             inputMode={f.name === "plz" ? "numeric" : undefined}
-            className="mt-1.5 min-h-12 w-full rounded border border-linie bg-kalk px-3.5 py-2.5 text-tinte placeholder:text-tinte-2/60 focus:border-tinte"
+            className="mt-1.5 min-h-12 w-full rounded border border-rahmen bg-kalk px-3.5 py-2.5 text-tinte placeholder:text-tinte-2/60 focus:border-tinte"
           />
         </div>
       ))}
@@ -72,7 +74,7 @@ export function KontaktFormular({ email, hinweis }: Props) {
           name="bemerkung"
           required
           rows={6}
-          className="mt-1.5 w-full rounded border border-linie bg-kalk px-3.5 py-2.5 text-tinte focus:border-tinte"
+          className="mt-1.5 w-full rounded border border-rahmen bg-kalk px-3.5 py-2.5 text-tinte focus:border-tinte"
         />
       </div>
       <div className="sm:col-span-2">

@@ -18,12 +18,12 @@ export function Hero({ hero, farbfaecher }: { hero: HeroTyp; farbfaecher: Refere
           {(hero.knopf || hero.zweiterKnopf) && (
             <div className="mt-8 flex flex-wrap gap-3">
               {hero.knopf && (
-                <SmartLink href={hero.knopf.ziel} className="knopf knopf-primaer">
+                <SmartLink href={hero.knopf.ziel} extern={hero.knopf.extern} className="knopf knopf-primaer">
                   {hero.knopf.titel}
                 </SmartLink>
               )}
               {hero.zweiterKnopf && (
-                <SmartLink href={hero.zweiterKnopf.ziel} className="knopf knopf-sekundaer">
+                <SmartLink href={hero.zweiterKnopf.ziel} extern={hero.zweiterKnopf.extern} className="knopf knopf-sekundaer">
                   <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
                   </svg>
@@ -57,7 +57,7 @@ export function Hero({ hero, farbfaecher }: { hero: HeroTyp; farbfaecher: Refere
                     <li key={r.id}>
                       <SmartLink
                         href="/innen-aussenarbeiten"
-                        className="block h-11 w-11 rounded-sm ring-1 ring-black/10 transition-transform duration-200 ease-aus hover:scale-110 sm:h-10 sm:w-10"
+                        className="block h-11 w-11 rounded-sm ring-1 ring-black/10 transition-transform duration-200 ease-aus hover:scale-110"
                         style={{ backgroundColor: r.bild.farbton }}
                         title={`${r.bild.farbton} – ${r.bild.alt}`}
                         aria-label={`Farbton ${r.bild.farbton}: ${r.bild.alt}`}

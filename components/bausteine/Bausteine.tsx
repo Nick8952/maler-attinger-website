@@ -69,7 +69,7 @@ export function Bausteine({ bausteine, e }: { bausteine: Baustein[]; e: Einstell
                 <Galerie referenzen={liste} darstellung={b.darstellung} mitFilter={!b.maximal} />
                 {b.weiterLink && (
                   <p className="erscheinen mt-8">
-                    <SmartLink href={b.weiterLink.ziel} className="knopf knopf-sekundaer">
+                    <SmartLink href={b.weiterLink.ziel} extern={b.weiterLink.extern} className="knopf knopf-sekundaer">
                       {b.weiterLink.titel}
                       <Pfeil />
                     </SmartLink>
@@ -180,17 +180,18 @@ export function Bausteine({ bausteine, e }: { bausteine: Baustein[]; e: Einstell
               <section key={id} className={`py-abschnitt ${i === bausteine.length - 1 ? "bg-bordeaux text-white" : "bg-grundierung"}`}>
                 <div className="container-seite erscheinen grid items-end gap-8 lg:grid-cols-12">
                   <div className="lg:col-span-8">
-                    {b.kurzzeile && <p className={`schrift-etikett ${i === bausteine.length - 1 ? "text-white/70" : "text-bordeaux"}`}>{b.kurzzeile}</p>}
+                    {b.kurzzeile && <p className={`schrift-etikett ${i === bausteine.length - 1 ? "text-white/90" : "text-bordeaux"}`}>{b.kurzzeile}</p>}
                     {b.titel && <h2 className="schrift-display mt-3 text-display-md">{b.titel}</h2>}
                     {b.text && <p className={`mt-4 max-w-[40rem] text-lead ${i === bausteine.length - 1 ? "text-white/85" : "text-tinte-2"}`}>{b.text}</p>}
                   </div>
                   <div className="flex flex-wrap gap-3 lg:col-span-4 lg:justify-end">
-                    <SmartLink href={b.knopf.ziel} className={`knopf ${i === bausteine.length - 1 ? "bg-white text-bordeaux hover:bg-grundierung" : "knopf-primaer"}`}>
+                    <SmartLink href={b.knopf.ziel} extern={b.knopf.extern} className={`knopf ${i === bausteine.length - 1 ? "bg-white text-bordeaux hover:bg-grundierung" : "knopf-primaer"}`}>
                       {b.knopf.titel}
                     </SmartLink>
                     {b.zweiterKnopf && (
                       <SmartLink
                         href={b.zweiterKnopf.ziel}
+                        extern={b.zweiterKnopf.extern}
                         className={`knopf ${i === bausteine.length - 1 ? "text-white shadow-[inset_0_0_0_1.5px_rgb(255_255_255/0.5)] hover:shadow-[inset_0_0_0_1.5px_#fff]" : "knopf-sekundaer"}`}
                       >
                         {b.zweiterKnopf.titel}

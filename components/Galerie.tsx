@@ -135,7 +135,7 @@ export function Galerie({ referenzen, darstellung, mitFilter = true }: Props) {
           <div className="flex h-full flex-col text-white">
             <div className="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
               <p className="schrift-eng min-w-0 truncate text-sm text-white/85">
-                <span className="font-semibold tabular-nums">{offen + 1}/{sichtbar.length}</span>
+                <span className="font-semibold tabular-nums">Bild {offen + 1} von {sichtbar.length}</span>
                 {" · "}
                 {KATEGORIE_TITEL[sichtbar[offen].kategorie]}
                 {sichtbar[offen].bildunterschrift ? ` · ${sichtbar[offen].bildunterschrift}` : ""}
@@ -176,9 +176,9 @@ export function Galerie({ referenzen, darstellung, mitFilter = true }: Props) {
                 </>
               )}
             </figure>
-            <p className="px-4 pb-4 text-center text-sm text-white/85 sm:px-6">
+            <p role="status" aria-live="polite" className="px-4 pb-4 text-center text-sm text-white/85 sm:px-6">
               <span className="inline-block h-3 w-3 -mb-px mr-2 rounded-sm ring-1 ring-white/30" style={{ backgroundColor: sichtbar[offen].bild.farbton }} aria-hidden="true" />
-              {sichtbar[offen].bild.alt}
+              Bild {offen + 1} von {sichtbar.length}: {sichtbar[offen].bild.alt}
             </p>
           </div>
         )}

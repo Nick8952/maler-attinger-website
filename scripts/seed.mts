@@ -10,7 +10,7 @@
  *
  * Dokument-IDs sind deterministisch (einstellungen, seite-<slug>, leistung-<id>, referenz-<id>,
  * rechtstext-<art>), damit das Skript wiederholbar ist. Bilder werden anhand ihres Dateinamens
- * wiedererkannt (Sanity dedupliziert identische Dateien per Hash).
+ * dedupliziert: Sanity erkennt identische Dateiinhalte per Hash und legt kein zweites Asset an.
  */
 import { createClient, type SanityClient } from "@sanity/client";
 import nextEnv from "@next/env";
@@ -51,12 +51,7 @@ async function bildHochladen(id: string): Promise<string> {
     assetIds.set(id, `probe-${id}`);
     return `probe-${id}`;
   }
-  // Schon vorhanden? (gleicher Dateiname aus einem früheren Lauf)
-  const vorhanden = await client.fetch<string | null>(`*[_type == "sanity.imageAsset" && originalFilename == $name][0]._id`, { name: dateiname });
-  if (vorhanden) {
-    assetIds.set(id, vorhanden);
-    return vorhanden;
-  }
+  // Sanity dedupliziert Uploads anhand des Dateiinhalts (Hash): identische Dateien ergeben dasselbe Asset.
   const asset = await client.assets.upload("image", await readFile(datei), { filename: dateiname, label: id });
   console.log(`  hochgeladen: ${eintrag.original} → ${asset._id}`);
   assetIds.set(id, asset._id);
@@ -66,7 +61,7 @@ async function bildHochladen(id: string): Promise<string> {
 async function bild(ref: BildRef | undefined) {
   if (!ref) return undefined;
   return {
-    _type: "image",
+    _type: "bild", // benannter Bildtyp aus sanity/schemas/objekte.ts
     asset: { _type: "reference", _ref: await bildHochladen(ref.bild) },
     alt: ref.alt,
     ...(ref.bildunterschrift ? { bildunterschrift: ref.bildunterschrift } : {}),
@@ -76,8 +71,13 @@ async function bild(ref: BildRef | undefined) {
 
 const ref = (_ref: string, key?: string) => ({ _type: "reference", _ref, ...(key ? { _key: key } : {}) });
 
+const link = (l: unknown) => (l && typeof l === "object" ? { _type: "link", ...(l as object) } : undefined);
+
 async function bausteinUmwandeln(b: Record<string, unknown>) {
   const kopie: Record<string, unknown> = { ...b };
+  for (const k of ["knopf", "zweiterKnopf", "weiterLink"]) if (k in b) kopie[k] = link(b[k]);
+  if (b._type === "spaltenBaustein") kopie.spalten = ((b.spalten as Record<string, unknown>[]) ?? []).map((sp) => ({ _type: "spalte", ...sp }));
+  if (b._type === "linklisteBaustein") kopie.links = ((b.links as Record<string, unknown>[]) ?? []).map((l) => ({ _type: "eintrag", ...l }));
   if (b._type === "leistungenBaustein") kopie.leistungen = ((b.leistungen as string[] | undefined) ?? []).map((id) => ref(id, id));
   if (b._type === "kontaktBaustein" || b._type === "bildBaustein") kopie.bild = await bild(b.bild as BildRef | undefined);
   if (b._type === "rechtstextBaustein") kopie.rechtstext = ref(`rechtstext-${b.rechtstext as string}`);
@@ -127,8 +127,8 @@ for (const datei of await readdir(path.join(WURZEL, "data/seiten"))) {
           ...hero,
           bild: await bild(hero.bild as BildRef | undefined),
           bildHoch: await bild(hero.bildHoch as BildRef | undefined),
-          knopf: hero.knopf ? { _type: "link", ...(hero.knopf as object) } : undefined,
-          zweiterKnopf: hero.zweiterKnopf ? { _type: "link", ...(hero.zweiterKnopf as object) } : undefined,
+          knopf: link(hero.knopf),
+          zweiterKnopf: link(hero.zweiterKnopf),
         }
       : undefined,
     kopfbild: await bild(s.kopfbild as BildRef | undefined),

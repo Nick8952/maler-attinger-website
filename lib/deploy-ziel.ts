@@ -10,9 +10,14 @@ const GITHUB_KONTO = "nick8952";
 
 export const deployZiel: DeployZiel = process.env.DEPLOY_TARGET === "vercel" ? "vercel" : "pages";
 
+// BASE_PATH nicht gesetzt → Repository-Unterpfad; ausdrücklich leer ("") → Export an einer Domain-Wurzel.
 export const basePath: string =
-  deployZiel === "vercel" ? "" : (process.env.BASE_PATH ?? `/${REPO_NAME}`).replace(/\/$/, "");
+  deployZiel === "vercel" ? "" : (process.env.BASE_PATH ?? `/${REPO_NAME}`).trim().replace(/\/$/, "");
 
+const siteUrlEnv = process.env.SITE_URL?.trim().replace(/\/$/, "");
 export const siteUrl: string =
-  process.env.SITE_URL?.replace(/\/$/, "") ??
-  (deployZiel === "vercel" ? "https://maler-attinger-website.vercel.app" : `https://${GITHUB_KONTO}.github.io${basePath}`);
+  siteUrlEnv && siteUrlEnv.length > 0
+    ? siteUrlEnv
+    : deployZiel === "vercel"
+      ? "https://maler-attinger-website.vercel.app"
+      : `https://${GITHUB_KONTO}.github.io${basePath}`;

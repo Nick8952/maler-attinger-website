@@ -15,7 +15,7 @@ export function SmartLink({ href, extern, children, ...rest }: Props) {
     );
   }
   return (
-    <Link href={href} {...rest}>
+    <Link href={href} {...(extern ? { target: "_blank", rel: "noopener noreferrer" } : {})} {...rest}>
       {children}
     </Link>
   );

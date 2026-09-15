@@ -5,7 +5,7 @@
  */
 import { defineConfig } from "sanity";
 import { structureTool } from "sanity/structure";
-import { presentationTool } from "sanity/presentation";
+import { presentationTool, defineLocations } from "sanity/presentation";
 import { visionTool } from "@sanity/vision";
 import { schemaTypes } from "./sanity/schemas";
 import { apiVersion, dataset, projectId, studioUrl } from "./sanity/env";
@@ -39,6 +39,20 @@ export default defineConfig({
       },
       resolve: {
         mainDocuments: [{ route: "/:slug", filter: `_type == "seite" && slug.current == $slug` }, { route: "/", filter: `_type == "seite" && slug.current == "start"` }],
+        // Dokument → Seiten, auf denen es sichtbar ist (für «Auf Website öffnen» im Studio)
+        locations: {
+          seite: defineLocations({
+            select: { titel: "titel", slug: "slug.current" },
+            resolve: (doc) => ({ locations: [{ title: doc?.titel ?? "Seite", href: doc?.slug === "start" ? "/" : `/${doc?.slug ?? ""}` }] }),
+          }),
+          leistung: defineLocations({ select: { titel: "titel" }, resolve: (doc) => ({ locations: [{ title: `${doc?.titel ?? "Leistung"} – Angebot`, href: "/angebot" }, { title: "Startseite", href: "/" }] }) }),
+          referenz: defineLocations({
+            select: { kategorie: "kategorie" },
+            resolve: (doc) => ({ locations: [{ title: doc?.kategorie === "umbau-rieterplatz" ? "Renovation / Umbau" : "Innen- / Aussenarbeiten", href: doc?.kategorie === "umbau-rieterplatz" ? "/renovation-umbau" : "/innen-aussenarbeiten" }] }),
+          }),
+          rechtstext: defineLocations({ select: { art: "art", titel: "titel" }, resolve: (doc) => ({ locations: [{ title: doc?.titel ?? "Rechtstext", href: `/${doc?.art ?? "impressum"}` }] }) }),
+          einstellungen: defineLocations({ message: "Einstellungen wirken auf allen Seiten.", locations: [{ title: "Startseite", href: "/" }] }),
+        },
       },
     }),
     visionTool({ defaultApiVersion: apiVersion }),

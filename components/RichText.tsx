@@ -7,15 +7,19 @@ const komponenten: PortableTextComponents = {
   marks: {
     link: ({ value, children }) => {
       const href: string = value?.href ?? "#";
+      const extern: boolean = value?.extern ?? href.startsWith("http");
       if (istExternerLink(href)) {
-        const extern = href.startsWith("http");
         return (
           <a href={href} {...(extern ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
             {children}
           </a>
         );
       }
-      return <Link href={href}>{children}</Link>;
+      return (
+        <Link href={href} {...(extern ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+          {children}
+        </Link>
+      );
     },
   },
 };

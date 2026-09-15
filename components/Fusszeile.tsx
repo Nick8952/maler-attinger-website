@@ -11,7 +11,7 @@ export function Fusszeile({ e }: { e: Einstellungen }) {
       <section aria-labelledby="partner-titel" className="border-t border-linie bg-grundierung">
         <div className="container-seite py-10">
           <h2 id="partner-titel" className="schrift-etikett text-tinte-2">
-            Zertifiziert und vernetzt
+            Umweltschutz, Ökologie und Verbände
           </h2>
           <ul className="mt-5 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
             {e.partner.map((p) => (
