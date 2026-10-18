@@ -1,0 +1,23 @@
+Betreff: Ihre Website neu gedacht: unverbindliche Demo für Attinger Maler + Tapeziergeschäft
+
+Sehr geehrter Herr Attinger
+
+Ich heisse Nick Holzbecher, bin IT-Lehrling aus Zürich und baue in meiner Freizeit moderne Websites für lokale Betriebe. Ich mache das, weil ich es schade finde, wenn gute Handwerker im Internet schlechter dastehen, als sie sind.
+
+Beim Durchsehen von Malerbetrieben in Zürich bin ich auf maler-attinger.ch gestossen. Ein Familienbetrieb seit 1965, in zweiter Generation geführt, mit der Schweizer Umweltetikette ausgezeichnet: das ist eine Geschichte, die Vertrauen schafft.
+
+Auf der heutigen Website merkt man davon wenig. Die Startseite zeigt nur ein Foto ohne Text, die Bilder Ihrer Arbeiten sind in kleinen Bildstrecken versteckt, und wer auf dem Handy anrufen oder anfragen möchte, muss lange suchen.
+
+Deshalb habe ich bereits eine komplett neue Demo-Version erstellt. Sie zeigt Ihre Geschichte gleich auf der Startseite, stellt Ihre Referenzen als grosse, filterbare Galerie dar, macht Anruf und Anfrage auf dem Handy mit einem Tipp erreichbar und nimmt Ihr Bordeaux aus dem Logo als Erkennungsfarbe auf. Alle Texte und Fotos stammen von Ihrer bisherigen Seite.
+
+Hier ist die Demo:
+https://nick8952.github.io/maler-attinger-website/
+
+Texte, Bilder und Details kann ich jederzeit anpassen. Das Anschauen ist völlig unverbindlich und kostenlos. Wenn Ihnen die Richtung gefällt, erhalten Sie von mir ein Angebot zu einem fairen Fixpreis ohne versteckte Kosten.
+
+Hätten Sie diese oder nächste Woche zehn Minuten für ein kurzes Telefonat? Ich richte mich gerne nach Ihnen.
+
+Freundliche Grüsse
+Nick Holzbecher
+076 687 21 21
+holzbechernick@gmail.com
